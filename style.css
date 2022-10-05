@@ -32,6 +32,9 @@ article {
     background: linear-gradient(#e66465, #9198e5);
 }
 
+img {
+    display: block;
+}
 
 /* Link styles */
 
