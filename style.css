@@ -1,5 +1,22 @@
+/* base style rules */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+/* header styles */
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+}
+
+header > p {
+    color: #ffddff;
 }
 
 h1, h3 {
@@ -10,22 +27,13 @@ h1, h3 {
     color: #ffddff;
 }
 
-body {
-    background-color: beige;
-}
-
+/* Article styles */
 article {
     background: linear-gradient(#e66465, #9198e5);
 }
 
-header {
-    background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
-    background-size: cover;
-}
 
-header > p {
-    color: #ffddff;
-}
+/* Link styles */
 
 a {
     color: rgb(223, 223, 223);
