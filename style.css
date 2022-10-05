@@ -13,3 +13,7 @@ h1, h3 {
 body {
     background-color: beige;
 }
+
+article {
+    background: linear-gradient(#e66465, #9198e5);
+}
