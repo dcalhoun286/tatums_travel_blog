@@ -8,7 +8,7 @@ body {
     background-color: beige;
 }
 
-/* header styles */
+/* header and heading styles */
 
 header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
@@ -21,6 +21,10 @@ header > p {
 
 h1, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subheading {
+    border-bottom: 1px dotted #444;
 }
 
 #main-title {
